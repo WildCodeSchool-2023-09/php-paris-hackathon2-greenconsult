@@ -48,7 +48,18 @@ body {
 }
 
 .coiffeurs {
-    color: white;
+    color: #A57800;
+}
+
+.list_coiffeurs {
+    background-color: #131313;
+    border: solid 2px #A57800;
+    border-radius: 10px;
+    color: #A57800;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
 }
 
 .button-rdv {

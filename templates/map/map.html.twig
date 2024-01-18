@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div id="map" style="height: 400px;"></div>
+    <div id="map" style="height: 250px;"></div>
     <script>
         let map = L.map('map').setView([48.8690712, 2.406441], 15); // Coordonnées de Paris par exemple
 
@@ -34,72 +34,39 @@
         }
     </script>
     <div class="cadre"> 
-        <h1 class="coiffeurs">Les coiffeurs dans votre coin</h1>
-            <h2>JACQUES DUMONT</h2>
-                <p><div class="adresse">Adresse</div>
-                    145 AV GAMBETTA
-                    75020 Paris
-                    <div class="adresse">Horaires</div>
-                    lundi Fermé
-                    mardi 09:00–18:00
-                    mercredi 09:00–18:00
-                    jeudi 09:00–18:00
-                    vendredi 09:00–18:00
-                    samedi 09:00–18:00
-                    dimanche Fermé
+        <h1 class="coiffeurs">Les coiffeurs autour de vous</h1>
+            <div class="list_coiffeurs">
+            <a href = "creneau"</a>
+                <h2>JACQUES DUMONT</h2>
+                    <p><div class="adresse"></div>
+                        145 AV GAMBETTA
+                        75020 Paris
                     </p>
-            <h2>JACQUES DUMONT</h2>
-                <p><div class="adresse">Adresse</div>
+            </div>
+            <div class="list_coiffeurs">
+            <a href = "creneau"</a>
+                <h2>CHRISTIAN GILLES</h2>
+                    <p><div class="adresse"></div>
+                        145 AV GAMBETTA
+                        75020 Paris
+                    </p>
+            </div>
+            <div class="list_coiffeurs">
+            <a href = "creneau"</a>
+            <h2>BEATRIX COIFFURE</h2>
+                <p><div class="adresse"></div>
                     145 AV GAMBETTA
                     75020 Paris
-                        <div class="adresse">Horaires</div>
-                    lundi Fermé
-                    mardi 09:00–18:00
-                    mercredi 09:00–18:00
-                    jeudi 09:00–18:00
-                    vendredi 09:00–18:00
-                    samedi 09:00–18:00
-                    dimanche Fermé
-                </p>
-            <h2>JACQUES DUMONT</h2>
-                <p><div class="adresse">Adresse</div>
-                    145 AV GAMBETTA
-                    75020 Paris
-                        <div class="adresse">Horaires</div>
-                    lundi Fermé
-                    mardi 09:00–18:00
-                    mercredi 09:00–18:00
-                    jeudi 09:00–18:00
-                    vendredi 09:00–18:00
-                    samedi 09:00–18:00
-                    dimanche Fermé
             </p>
-            <h2>JACQUES DUMONT</h2>
-                <p><div class="adresse">Adresse</div>
+            </div>
+            <div class="list_coiffeurs">
+            <a href = "creneau"</a>
+            <h2>CAP V HAIR COIFFURE</h2>
+                <p><div class="adresse"></div>
                     145 AV GAMBETTA
                     75020 Paris
-                        <div class="adresse">Horaires</div>
-                    lundi Fermé
-                    mardi 09:00–18:00
-                    mercredi 09:00–18:00
-                    jeudi 09:00–18:00
-                    vendredi 09:00–18:00
-                    samedi 09:00–18:00
-                    dimanche Fermé
-                </p>
-            <h2>JACQUES DUMONT</h2>
-                <p><div class="adresse">Adresse</div>
-                    145 AV GAMBETTA
-                    75020 Paris
-                        <div class="adresse">Horaires</div>
-                    lundi Fermé
-                    mardi 09:00–18:00
-                    mercredi 09:00–18:00
-                    jeudi 09:00–18:00
-                    vendredi 09:00–18:00
-                    samedi 09:00–18:00
-                    dimanche Fermé
-                </p>
+            </p>
+            </div>
     </div>
 {% endblock %}
 

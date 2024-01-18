@@ -1,15 +1,25 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Home{% endblock %}
+{% block title %}HEAVEN HAIR’S{% endblock %}
 
 {% block body %}
-    <div class="pink-stripe">
+    <div class="home_title">
         <h1>
-            Let's start coding&nbsp;&#129304;
+            <div  id="logo"> &#9986;</div> 
+            <div id="title_name"> Heaven Hair's </div>
         </h1>
     </div>
-    <div class="white-stripe">
-        <img src="{{ asset('build/images/logo-wild-code-school.svg') }}"
-             alt="">
+
+    <div class="intro">
+        <div id="welcome">
+            <p>
+                Bienvenue dans les salons partenaires de L’Oréal.
+            </p>
+        </div>
+        <div id="consigne">
+            <p>
+                Remplissez le formulaire et prenez un rdv personnalisé selon vos besoins.
+            </p>
+        </div>
     </div>
 {% endblock %}

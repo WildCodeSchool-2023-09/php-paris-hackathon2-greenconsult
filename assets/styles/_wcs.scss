@@ -257,6 +257,12 @@ a {
         font-weight: 400;
     }
 
+    .selected {
+        border: 1px solid white;
+        background-color: #ffbc02;
+        color: #131313;
+      }
+
     #zoom:hover {
         
         animation-name: slideIn;

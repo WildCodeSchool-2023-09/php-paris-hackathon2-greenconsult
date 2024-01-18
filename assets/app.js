@@ -21,3 +21,13 @@ for(let i = 0 ; i < horaires.length ; i++) {
         horaires[i].classList.toggle('selected');
     })
 }
+
+const panier = document.querySelectorAll('.button');
+for(let i = 0 ; i < panier.length ; i++) {
+    panier[i].addEventListener('click', function() {
+        for(let j = 0 ; j < panier.length ; j++) {
+            panier[j].classList.remove('selected');
+        }
+        panier[i].classList.toggle('selected');
+    })
+}

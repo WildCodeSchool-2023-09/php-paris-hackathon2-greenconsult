@@ -1,0 +1,77 @@
+#form {
+    margin-top: 17vw;
+}
+
+#title {
+    color: var(--color-main-font);
+    display: flex;
+    justify-content: center;
+    padding-top: 20vw;
+    padding-bottom: 10vw;
+    padding-left: 8%;
+}
+
+#select {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    background-color: #131313;
+    color: #A57800;
+    border: 1px solid #A57800;
+    border-radius: 6px;
+    margin-bottom: 6vw;
+    width: 100%;
+    height: 9vw;
+    text-align: center;
+}
+
+input {
+    background-color: #131313;
+    color: #A57800;
+    border-radius: 6px;
+    margin-bottom: 6vw;
+    border: 1px solid #A57800;
+    height: 9vw;
+    text-align: center;
+}
+
+#date, #prestation, #cheveux, #lala {
+    width: 70vw;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(71%) saturate(6359%) hue-rotate(33deg) brightness(98%) contrast(101%);
+}
+
+span {
+    color: #A57800;
+}
+
+#choix {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #A57800;
+}
+#submit {
+    margin-left: 34%;
+}
+
+#user {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+::placeholder {
+    display: flex;
+    justify-content: center;
+    color: #A57800;
+}

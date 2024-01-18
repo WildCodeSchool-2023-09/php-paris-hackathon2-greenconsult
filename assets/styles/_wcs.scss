@@ -1,40 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-// $wild-color: #a306b6;
-$light: #fffbfb;
-
-* {
-    box-sizing: border-box;
+:root {
+    --color-primary-container: #131313;
+    --color-main-background: #DAA520;
+    --color-main-font : #daa520;
+    --gradient-main-bg: linear-gradient(180deg, #131313 22%, #4b3b11 49.58%, #DAA520 100%);
+    // --gradient-main: linear-gradient(180deg, #181D3A 0%, #171835 100%);
+    // --gradient-cta: linear-gradient(180deg, #832700 0%, #55220D 100%);
+    // --gradient-card: linear-gradient(180deg, #1D023E 0%, #110323 100%);
 }
 
 body {
-    margin:0;
-    background-color: $wild-color;
-    color: $light;
+    background: var(--gradient-main-bg);
+    font-family: Michroma;
+    height: 932px;
 }
 
-
-.pink-stripe {
-    height: 50vh;
-    width: 100%;
+.home_title {
+    color: var(--color-main-font);
     display: flex;
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
-    font-size: clamp(2rem, 5vw, 3rem);
-    align-items: center;
     justify-content: center;
 }
 
-.white-stripe {
-    background-color: white;
-    padding: 1rem;
-    width: 100%;
-    height: 50vh;
+.home_title #logo {
     display: flex;
-    align-items: center;
     justify-content: center;
-    img {
-        width: 500px;
-        max-width: 100%;
-        height: auto;
-    }
+    font-size: 20vw;
+}
+
+.home_title #title_name {
+    font-size: 13vw;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    color: var(--color-main-font);
+    font-size: 8vw;
+    flex-wrap: wrap;
+    margin-top: 13vw;
 }

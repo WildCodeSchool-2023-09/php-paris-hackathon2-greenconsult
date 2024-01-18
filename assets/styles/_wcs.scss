@@ -4,9 +4,6 @@
     --color-main-background: #DAA520;
     --color-main-font : #daa520;
     --gradient-main-bg: linear-gradient(180deg, #131313 22%, #4b3b11 49.58%, #DAA520 100%);
-    // --gradient-main: linear-gradient(180deg, #181D3A 0%, #171835 100%);
-    // --gradient-cta: linear-gradient(180deg, #832700 0%, #55220D 100%);
-    // --gradient-card: linear-gradient(180deg, #1D023E 0%, #110323 100%);
 }
 
 body {
@@ -38,4 +35,8 @@ body {
     font-size: 8vw;
     flex-wrap: wrap;
     margin-top: 13vw;
+}
+
+.coiffeurs {
+    color: white;
 }

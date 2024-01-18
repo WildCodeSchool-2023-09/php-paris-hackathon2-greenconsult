@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Forumaire{% endblock %}
+
+{% block body %}
+<div class="row">
+    <div id="title">
+        <h1>Quelques petites précisions...
+    </div>
+    <div class="col-md-4 col-md-offset-6">
+        <section id="form">
+            <form name="addPartForm" action="form2" method="post" enctype="multipart/form-data">
+                <div id="select">
+                    <div id="prestation">
+                        <label for="prestation"></label>
+                        <select name="prestation">
+                            <option class="option" value="TYPE DE PRESTATION">TYPE DE PRESTATION</option>
+                            <option value="">coupe</option>
+                            <option value="">couleur</option>
+                            <option value="">soin</option>
+                        </select>    
+                    </div>
+                    <div>
+                        <label for="cheveux"></label>
+                        <select name="cheveux" id="cheveux">
+                            <option class="option" value="TYPE DE CHEVEUX">TYPE DE CHEVEUX</option>
+                            <option value="">Type 1 : Raides</option>
+                            <option value="">1a : lisses et fins</option>
+                            <option value="">1b : lisses et moyennement épais</option>
+                            <option value="">1c : lisses et épais</option>
+                            <option value="">Type 2 : Ondulés</option>
+                            <option value="">2a : ondulations légères</option>
+                            <option value="">2b : ondulations volumineuses</option>
+                            <option value="">2c : épais et volumineux</option>
+                            <option value="">Type 3 : Bouclés & Frisés</option>
+                            <option value="">3a : boucles larges</option>
+                            <option value="">3b : boucles définies</option>
+                            <option value="">3c : boucles serrées</option>
+                            <option value="">Type 4 : Crépus</option>
+                            <option value="">4a : crépus en spirale</option>
+                            <option value="">4b : crépus fins en S</option>
+                            <option value="">4c : crépus en Z</option>
+                        </select>
+                    </div>
+                <div>
+                    <label for="start"></label>
+                    <input type="date" id="date" name="trip-start" value="" min="2024-01-18" max="2050-12-31" />
+                </div>
+                <div id="question">
+                    <span>Utilisez vous des produits L'Oreal ?</span>
+                    <div id="choix">
+                        <div>
+                            <input type="radio" id="ascales" value="scales" name="drone"/>
+                            <label for="ascales">Oui</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="scales" value="scales" name="drone"/>
+                            <label for="scales">Non</label>
+                        </div>
+                    </div>
+                </div>
+                </div id="submit">
+                    <input type="submit" id="submit" value="CONTINUER"/>
+                </div>
+            </form>
+        </section>
+    </div>
+{% endblock %}

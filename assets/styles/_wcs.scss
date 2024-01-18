@@ -19,9 +19,25 @@ body {
     max-width: auto;
 }
 
-.h1-product {
-    color: #DAA520;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
+.product {
+    .flex-icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .h1-product {
+        color: #DAA520;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 3.62rem;
+    }
+
+    .cadre {
+        border-radius: 0.375rem;
+        border: solid 1px #A57800;
+        background: #131313;
+    }
 }

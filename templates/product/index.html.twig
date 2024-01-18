@@ -3,15 +3,17 @@
 {% block title %}Products{% endblock %}
 
 {% block body %}
-<div>
-    <img src="{{ asset('build/images/icons/scissors.png') }}" alt="scissors icon">
+<div class="product">
+    <div class="flex-icon">
+            <img src="{{ asset('build/images/icons/scissors.png') }}" alt="scissors icon">
+            <img src="{{ asset('build/images/icons/user.png') }}" alt="scissors icon">
+    </div>
+    <div>
+        <h1 class="h1-product">
+            ...Essayez notre sélection de produits personnalisée selon vos critères...
+        </h1>
+    </div>
 </div>
-<div>
-    <img src="{{ asset('build/images/icons/user.png') }}" alt="scissors icon">
-</div>
-    <h1 class="h1-product">
-        ...Essayez notre sélection de produits personnalisée selon vos critères...
-    </h1>
 
 
 {% endblock %}

@@ -10,7 +10,7 @@ import './styles/app.scss';
 
 // start the Stimulus application
 import './bootstrap';
-
+import './map';
 
 const horaires = document.querySelectorAll('.grid-item');
 for(let i = 0 ; i < horaires.length ; i++) {

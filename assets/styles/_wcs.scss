@@ -41,9 +41,32 @@ body {
     display: flex;
     justify-content: center;
     color: var(--color-main-font);
-    font-size: 8vw;
+    font-size: 1.5rem;
     flex-wrap: wrap;
     margin-top: 13vw;
+    text-align: center;
+}
+
+.button-rdv {
+    margin: 10px;
+    border: solid 2px #A57800;
+    padding: 5px;
+    border-radius: 10px;
+    background: var(--color-primary-container);
+    color: var(--color-main-font);
+    font-size: 1.75rem;
+    font-weight: 400;
+    width: 224px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-main-font);
+
 }
 
 .button-continuer {
@@ -109,13 +132,14 @@ body {
         grid-column-gap: 15px;
         grid-row-gap: 15px;
         justify-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .img-flex {
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-height: auto;
     }
 
     .button {
@@ -132,9 +156,17 @@ body {
     #zoom:hover {
         
         animation-name: slideIn;
-        animation-duration: 5s;
+        animation-duration: 6s;
         animation-iteration-count: infinite;
         transform: rotate(15deg);
+    }
+
+    .button-flex {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

@@ -105,6 +105,7 @@ a {
         grid-template-columns: auto auto auto;
         padding: 10px;
         row-gap: 20px;
+        justify-items: center;
       }
       .grid-item {
         background: var(--color-primary-container);
@@ -162,7 +163,7 @@ a {
 .validate {
 
     .flex {
-        margin-top: 10rem;
+        margin-top: 8rem;
         display: flex;
         justify-content: center;
     }
@@ -238,7 +239,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-height: auto;
+        justify-content: center;
     }
 
     .button {
@@ -262,7 +263,6 @@ a {
 
     .button-flex {
         margin-top: 2rem;
-        margin-bottom: 5rem;
         display: flex;
         justify-content: center;
         align-items: center;

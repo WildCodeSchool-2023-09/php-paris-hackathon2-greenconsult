@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Forumaire2{% endblock %}
+
+{% block body %}
+<div class="row">
+    <div id="title">
+        <h1>Vous y êtes presque...
+    </div>
+    <div class="col-md-4 col-md-offset-6">
+        <section id="form">
+            <form name="addPartForm" action="" method="post" enctype="multipart/form-data">
+                  <div id="user">
+                    <label for="nom"></label>
+                    <input type="text" name="nom" id="" placeholder="NOM" required/>
+
+                    <label for="prenom"></label>
+                    <input type="text" name="prenom" id="" placeholder="PRENOM" required/>
+  
+                    <label for="mail"></label>
+                    <input type="text" name="mail" id="" placeholder="MAIL" required/>
+              
+                    <label for="ville"></label>
+                    <input type="text" name="ville" id="" placeholder="VILLE" required/>
+                </div>
+                <div id="question">
+                    <span>Voulez vous essayer notre gamme Vegan ?</span>
+                    <div id="choix">
+                        <input type="checkbox" id="scales" name="scales" checked />
+                        <label for="scales">Oui</label>
+                        <input type="checkbox" id="horns" name="horns" />
+                        <label for="horns">Non</label>
+                    </div>
+                </div>
+                </div id="submit">
+                    <input type="submit" id="submit" value="CONTINUER"/>
+                </div>
+            </form>
+        </section>
+    </div>
+{% endblock %}
